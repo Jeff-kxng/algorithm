@@ -1,0 +1,17 @@
+# ninja log v5
+1	1999	7328823201194896	CMakeFiles/new_target.dir/Maze.cpp.obj	c977d1ba30c30bed
+1	475	7328825428619753	CMakeFiles/new_target2.dir/CVR.cpp.obj	b937d8ab704c497
+476	595	7328825429761153	new_target2.exe	fce3ff56a3de24a0
+2004	2210	7328823203282153	new_target.exe	c43608267ef7c2e8
+2193	2337	7328824086207198	new_target1.exe	ef96b5677ba7e9a0
+0	2193	7328824084783246	CMakeFiles/new_target1.dir/BCA.cpp.obj	d5ff16b25b339065
+0	873	7328826106928111	CMakeFiles/new_target3.dir/LBS.cpp.obj	824fcd7fa309a1e1
+874	979	7328826107953842	new_target3.exe	842202fa7da83543
+0	608	7328826757165770	CMakeFiles/new_target4.dir/CBUS.cpp.obj	d7a3d8cb2e2ded1f
+609	698	7328826758041192	new_target4.exe	ee01c8880abe107
+0	2143	7328827560462668	CMakeFiles/new_target5.dir/RMQ.cpp.obj	a70714d4450cc4c0
+2144	2250	7328827561382005	new_target5.exe	3684f532f4b03014
+1	1793	7328828882482020	CMakeFiles/new_target7.dir/Tele.cpp.obj	cc1ba2ab34faf6d0
+1794	1888	7328828883416349	new_target7.exe	d24b1acd323e4228
+0	475	7328829719139339	CMakeFiles/new_target8.dir/count.cpp.obj	770fb67d680b60c
+475	561	7328829719976274	new_target8.exe	1a898e0bf62f6c8d
