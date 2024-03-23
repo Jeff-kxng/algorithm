@@ -103,6 +103,18 @@ build CMakeFiles/algorithm.dir/count.cpp.obj: CXX_COMPILER__algorithm_unscanned_
   OBJECT_DIR = CMakeFiles\algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\algorithm.dir
 
+build CMakeFiles/algorithm.dir/MaxDis.cpp.obj: CXX_COMPILER__algorithm_unscanned_Debug C$:/Users/sokon/CLionProjects/algorithm/MaxDis.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles\algorithm.dir\MaxDis.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\algorithm.dir
+
+build CMakeFiles/algorithm.dir/Inversion.cpp.obj: CXX_COMPILER__algorithm_unscanned_Debug C$:/Users/sokon/CLionProjects/algorithm/Inversion.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles\algorithm.dir\Inversion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\algorithm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithm
@@ -111,7 +123,7 @@ build CMakeFiles/algorithm.dir/count.cpp.obj: CXX_COMPILER__algorithm_unscanned_
 #############################################
 # Link the executable algorithm.exe
 
-build algorithm.exe: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/Maze.cpp.obj CMakeFiles/algorithm.dir/BCA.cpp.obj CMakeFiles/algorithm.dir/CVR.cpp.obj CMakeFiles/algorithm.dir/LBS.cpp.obj CMakeFiles/algorithm.dir/CBUS.cpp.obj CMakeFiles/algorithm.dir/RMQ.cpp.obj CMakeFiles/algorithm.dir/cut.cpp.obj CMakeFiles/algorithm.dir/Tele.cpp.obj CMakeFiles/algorithm.dir/count.cpp.obj
+build algorithm.exe: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/Maze.cpp.obj CMakeFiles/algorithm.dir/BCA.cpp.obj CMakeFiles/algorithm.dir/CVR.cpp.obj CMakeFiles/algorithm.dir/LBS.cpp.obj CMakeFiles/algorithm.dir/CBUS.cpp.obj CMakeFiles/algorithm.dir/RMQ.cpp.obj CMakeFiles/algorithm.dir/cut.cpp.obj CMakeFiles/algorithm.dir/Tele.cpp.obj CMakeFiles/algorithm.dir/count.cpp.obj CMakeFiles/algorithm.dir/MaxDis.cpp.obj CMakeFiles/algorithm.dir/Inversion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\algorithm.dir
@@ -418,6 +430,72 @@ build new_target8.exe: CXX_EXECUTABLE_LINKER__new_target8_Debug CMakeFiles/new_t
   TARGET_IMPLIB = libnew_target8.dll.a
   TARGET_PDB = new_target8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target new_target9
+
+
+#############################################
+# Order-only phony target for new_target9
+
+build cmake_object_order_depends_target_new_target9: phony || CMakeFiles/new_target9.dir
+
+build CMakeFiles/new_target9.dir/MaxDis.cpp.obj: CXX_COMPILER__new_target9_unscanned_Debug C$:/Users/sokon/CLionProjects/algorithm/MaxDis.cpp || cmake_object_order_depends_target_new_target9
+  DEP_FILE = CMakeFiles\new_target9.dir\MaxDis.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\new_target9.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_target9
+
+
+#############################################
+# Link the executable new_target9.exe
+
+build new_target9.exe: CXX_EXECUTABLE_LINKER__new_target9_Debug CMakeFiles/new_target9.dir/MaxDis.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\new_target9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = new_target9.exe
+  TARGET_IMPLIB = libnew_target9.dll.a
+  TARGET_PDB = new_target9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target new_target10
+
+
+#############################################
+# Order-only phony target for new_target10
+
+build cmake_object_order_depends_target_new_target10: phony || CMakeFiles/new_target10.dir
+
+build CMakeFiles/new_target10.dir/Inversion.cpp.obj: CXX_COMPILER__new_target10_unscanned_Debug C$:/Users/sokon/CLionProjects/algorithm/Inversion.cpp || cmake_object_order_depends_target_new_target10
+  DEP_FILE = CMakeFiles\new_target10.dir\Inversion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\new_target10.dir
+  OBJECT_FILE_DIR = CMakeFiles\new_target10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_target10
+
+
+#############################################
+# Link the executable new_target10.exe
+
+build new_target10.exe: CXX_EXECUTABLE_LINKER__new_target10_Debug CMakeFiles/new_target10.dir/Inversion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\new_target10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = new_target10.exe
+  TARGET_IMPLIB = libnew_target10.dll.a
+  TARGET_PDB = new_target10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -450,6 +528,8 @@ build new_target: phony new_target.exe
 
 build new_target1: phony new_target1.exe
 
+build new_target10: phony new_target10.exe
+
 build new_target2: phony new_target2.exe
 
 build new_target3: phony new_target3.exe
@@ -464,6 +544,8 @@ build new_target7: phony new_target7.exe
 
 build new_target8: phony new_target8.exe
 
+build new_target9: phony new_target9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -472,7 +554,7 @@ build new_target8: phony new_target8.exe
 #############################################
 # Folder: C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug
 
-build all: phony algorithm.exe new_target.exe new_target1.exe new_target2.exe new_target3.exe new_target4.exe new_target5.exe new_target6.exe new_target7.exe new_target8.exe
+build all: phony algorithm.exe new_target.exe new_target1.exe new_target2.exe new_target3.exe new_target4.exe new_target5.exe new_target6.exe new_target7.exe new_target8.exe new_target9.exe new_target10.exe
 
 # =============================================================================
 # Built-in targets

@@ -13,6 +13,8 @@ add_executable(algorithm
         cut.cpp
         Tele.cpp
         count.cpp
+        MaxDis.cpp
+        Inversion.cpp
 )
 
 add_executable(new_target Maze.cpp)
@@ -24,3 +26,5 @@ add_executable(new_target5 RMQ.cpp)
 add_executable(new_target6 cut.cpp)
 add_executable(new_target7 Tele.cpp)
 add_executable(new_target8 count.cpp)
+add_executable(new_target9 MaxDis.cpp)
+add_executable(new_target10 Inversion.cpp)

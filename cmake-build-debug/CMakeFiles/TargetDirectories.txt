@@ -8,5 +8,7 @@ C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/new_target5.
 C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/new_target6.dir
 C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/new_target7.dir
 C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/new_target8.dir
+C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/new_target9.dir
+C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/new_target10.dir
 C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sokon/CLionProjects/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
